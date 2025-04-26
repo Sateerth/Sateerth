@@ -3,10 +3,9 @@ def is_disarium(num):
 
 
 def first_n_disarium(n):
-    res, num = [], 0
+    res, num = []
     while len(res) < n:
-        if is_disarium(num):
-            res.append(num)
+        
         num += 1
     return res
 
